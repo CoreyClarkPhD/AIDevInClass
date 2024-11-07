@@ -1,0 +1,53 @@
+{
+  "version": "0.2.0",
+  "configurations": [{
+    "name": "Debug Active File",
+    "type": "cppdbg",
+    "request": "launch",
+    "program": "${fileDirname}/${fileBasenameNoExtension}",
+    "args": [],
+    "stopAtEntry": false,
+    "cwd": "${fileDirname}",
+    "environment": [],
+    "externalConsole": false,
+    "MIMode": "lldb", //"gdb",
+    // "miDebuggerPath": "/usr/bin/gdb",
+    "setupCommands": [
+      {
+        "description": "Enable pretty-printing for gdb",
+        "text": "-enable-pretty-printing",
+        "ignoreFailures": true
+      }
+    ],
+    "preLaunchTask": "C/C++: g++ build active file"
+  },
+  {
+    "name": "Debug All CPP Files",
+    "type": "cppdbg",
+    "request": "launch",
+    "program": "${workspaceFolder}/output",
+    "args": [],
+    "stopAtEntry": false,
+    "cwd": "${workspaceFolder}",
+    "environment": [],
+    "externalConsole": false,
+    "MIMode": "lldb",
+    "setupCommands": [
+      {
+        "description": "Enable pretty-printing for gdb",
+        "text": "-enable-pretty-printing",
+        "ignoreFailures": true
+      }
+    ],
+    "preLaunchTask": "C/C++: g++ build all files"
+  },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIdev",
+      "program": "/Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/build/Debug/outDebug"
+    }
+  ]
+}
