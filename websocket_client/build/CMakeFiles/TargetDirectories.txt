@@ -1,0 +1,3 @@
+/Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/build/CMakeFiles/ws_client.dir
+/Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/build/CMakeFiles/edit_cache.dir
+/Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/build/CMakeFiles/rebuild_cache.dir
