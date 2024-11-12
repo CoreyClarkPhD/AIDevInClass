@@ -129,29 +129,77 @@ ws_client/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ws_client.dir/build.make CMakeFiles/ws_client.dir/build
 .PHONY : ws_client/fast
 
-ws_client.o: ws_client.cpp.o
-.PHONY : ws_client.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-ws_client.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ws_client.dir/build.make CMakeFiles/ws_client.dir/ws_client.cpp.o
-.PHONY : ws_client.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ws_client.dir/build.make CMakeFiles/ws_client.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-ws_client.i: ws_client.cpp.i
-.PHONY : ws_client.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-ws_client.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ws_client.dir/build.make CMakeFiles/ws_client.dir/ws_client.cpp.i
-.PHONY : ws_client.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ws_client.dir/build.make CMakeFiles/ws_client.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-ws_client.s: ws_client.cpp.s
-.PHONY : ws_client.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-ws_client.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ws_client.dir/build.make CMakeFiles/ws_client.dir/ws_client.cpp.s
-.PHONY : ws_client.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ws_client.dir/build.make CMakeFiles/ws_client.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+src/server_manager.o: src/server_manager.cpp.o
+.PHONY : src/server_manager.o
+
+# target to build an object file
+src/server_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ws_client.dir/build.make CMakeFiles/ws_client.dir/src/server_manager.cpp.o
+.PHONY : src/server_manager.cpp.o
+
+src/server_manager.i: src/server_manager.cpp.i
+.PHONY : src/server_manager.i
+
+# target to preprocess a source file
+src/server_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ws_client.dir/build.make CMakeFiles/ws_client.dir/src/server_manager.cpp.i
+.PHONY : src/server_manager.cpp.i
+
+src/server_manager.s: src/server_manager.cpp.s
+.PHONY : src/server_manager.s
+
+# target to generate assembly for a file
+src/server_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ws_client.dir/build.make CMakeFiles/ws_client.dir/src/server_manager.cpp.s
+.PHONY : src/server_manager.cpp.s
+
+src/ws_client.o: src/ws_client.cpp.o
+.PHONY : src/ws_client.o
+
+# target to build an object file
+src/ws_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ws_client.dir/build.make CMakeFiles/ws_client.dir/src/ws_client.cpp.o
+.PHONY : src/ws_client.cpp.o
+
+src/ws_client.i: src/ws_client.cpp.i
+.PHONY : src/ws_client.i
+
+# target to preprocess a source file
+src/ws_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ws_client.dir/build.make CMakeFiles/ws_client.dir/src/ws_client.cpp.i
+.PHONY : src/ws_client.cpp.i
+
+src/ws_client.s: src/ws_client.cpp.s
+.PHONY : src/ws_client.s
+
+# target to generate assembly for a file
+src/ws_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ws_client.dir/build.make CMakeFiles/ws_client.dir/src/ws_client.cpp.s
+.PHONY : src/ws_client.cpp.s
 
 # Help Target
 help:
@@ -162,9 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ws_client"
-	@echo "... ws_client.o"
-	@echo "... ws_client.i"
-	@echo "... ws_client.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/server_manager.o"
+	@echo "... src/server_manager.i"
+	@echo "... src/server_manager.s"
+	@echo "... src/ws_client.o"
+	@echo "... src/ws_client.i"
+	@echo "... src/ws_client.s"
 .PHONY : help
 
 

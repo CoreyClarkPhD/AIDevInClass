@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/ws_client.cpp" "CMakeFiles/ws_client.dir/ws_client.cpp.o" "gcc" "CMakeFiles/ws_client.dir/ws_client.cpp.o.d"
+  "/Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/src/main.cpp" "CMakeFiles/ws_client.dir/src/main.cpp.o" "gcc" "CMakeFiles/ws_client.dir/src/main.cpp.o.d"
+  "/Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/src/server_manager.cpp" "CMakeFiles/ws_client.dir/src/server_manager.cpp.o" "gcc" "CMakeFiles/ws_client.dir/src/server_manager.cpp.o.d"
+  "/Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/src/ws_client.cpp" "CMakeFiles/ws_client.dir/src/ws_client.cpp.o" "gcc" "CMakeFiles/ws_client.dir/src/ws_client.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebSocket Demo Client</title>
+</head>
+<body>
+    <div>
+        <h2>WebSocket Demo</h2>
+        <button onclick="sendTestCommand()">Send Test Command</button>
+        <div id="log" style="margin-top: 20px; padding: 10px; border: 1px solid #ccc; height: 300px; overflow-y: scroll;"></div>
+    </div>
+
+    <script>
+        const ws = new WebSocket('ws://localhost:9002');
+        const logDiv = document.getElementById('log');
+
+        function log(message) {
+            const div = document.createElement('div');
+            div.textContent = typeof message === 'object' ? 
+                JSON.stringify(message, null, 2) : message;
+            logDiv.appendChild(div);
+            logDiv.scrollTop = logDiv.scrollHeight;
+        }
+
+        ws.onopen = () => {
+            log('Connected to server');
+        };
+
+        ws.onmessage = (event) => {
+            const message = JSON.parse(event.data);
+            log('Received: ');
+            log(message);
+        };
+
+        ws.onclose = () => {
+            log('Disconnected from server');
+        };
+
+        ws.onerror = (error) => {
+            log('WebSocket error: ' + error.message);
+        };
+
+        function sendTestCommand() {
+            const command = {
+                type: 'command',
+                id: crypto.randomUUID(),
+                timestamp: Date.now(),
+                payload: {
+                    command: {
+                        name: 'getData',
+                        parameters: {
+                            startTime: Date.now() - 3600000,
+                            endTime: Date.now()
+                        }
+                    }
+                }
+            };
+            
+            ws.send(JSON.stringify(command));
+            log('Sent: ');
+            log(command);
+        }
+    </script>
+</body>
+</html>

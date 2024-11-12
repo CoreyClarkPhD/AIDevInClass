@@ -72,33 +72,65 @@ include CMakeFiles/ws_client.dir/flags.make
 CMakeFiles/ws_client.dir/codegen:
 .PHONY : CMakeFiles/ws_client.dir/codegen
 
-CMakeFiles/ws_client.dir/ws_client.cpp.o: CMakeFiles/ws_client.dir/flags.make
-CMakeFiles/ws_client.dir/ws_client.cpp.o: /Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/ws_client.cpp
-CMakeFiles/ws_client.dir/ws_client.cpp.o: CMakeFiles/ws_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ws_client.dir/ws_client.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ws_client.dir/ws_client.cpp.o -MF CMakeFiles/ws_client.dir/ws_client.cpp.o.d -o CMakeFiles/ws_client.dir/ws_client.cpp.o -c /Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/ws_client.cpp
+CMakeFiles/ws_client.dir/src/main.cpp.o: CMakeFiles/ws_client.dir/flags.make
+CMakeFiles/ws_client.dir/src/main.cpp.o: /Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/src/main.cpp
+CMakeFiles/ws_client.dir/src/main.cpp.o: CMakeFiles/ws_client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ws_client.dir/src/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ws_client.dir/src/main.cpp.o -MF CMakeFiles/ws_client.dir/src/main.cpp.o.d -o CMakeFiles/ws_client.dir/src/main.cpp.o -c /Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/src/main.cpp
 
-CMakeFiles/ws_client.dir/ws_client.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ws_client.dir/ws_client.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/ws_client.cpp > CMakeFiles/ws_client.dir/ws_client.cpp.i
+CMakeFiles/ws_client.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ws_client.dir/src/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/src/main.cpp > CMakeFiles/ws_client.dir/src/main.cpp.i
 
-CMakeFiles/ws_client.dir/ws_client.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ws_client.dir/ws_client.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/ws_client.cpp -o CMakeFiles/ws_client.dir/ws_client.cpp.s
+CMakeFiles/ws_client.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ws_client.dir/src/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/src/main.cpp -o CMakeFiles/ws_client.dir/src/main.cpp.s
+
+CMakeFiles/ws_client.dir/src/ws_client.cpp.o: CMakeFiles/ws_client.dir/flags.make
+CMakeFiles/ws_client.dir/src/ws_client.cpp.o: /Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/src/ws_client.cpp
+CMakeFiles/ws_client.dir/src/ws_client.cpp.o: CMakeFiles/ws_client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ws_client.dir/src/ws_client.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ws_client.dir/src/ws_client.cpp.o -MF CMakeFiles/ws_client.dir/src/ws_client.cpp.o.d -o CMakeFiles/ws_client.dir/src/ws_client.cpp.o -c /Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/src/ws_client.cpp
+
+CMakeFiles/ws_client.dir/src/ws_client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ws_client.dir/src/ws_client.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/src/ws_client.cpp > CMakeFiles/ws_client.dir/src/ws_client.cpp.i
+
+CMakeFiles/ws_client.dir/src/ws_client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ws_client.dir/src/ws_client.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/src/ws_client.cpp -o CMakeFiles/ws_client.dir/src/ws_client.cpp.s
+
+CMakeFiles/ws_client.dir/src/server_manager.cpp.o: CMakeFiles/ws_client.dir/flags.make
+CMakeFiles/ws_client.dir/src/server_manager.cpp.o: /Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/src/server_manager.cpp
+CMakeFiles/ws_client.dir/src/server_manager.cpp.o: CMakeFiles/ws_client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ws_client.dir/src/server_manager.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ws_client.dir/src/server_manager.cpp.o -MF CMakeFiles/ws_client.dir/src/server_manager.cpp.o.d -o CMakeFiles/ws_client.dir/src/server_manager.cpp.o -c /Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/src/server_manager.cpp
+
+CMakeFiles/ws_client.dir/src/server_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ws_client.dir/src/server_manager.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/src/server_manager.cpp > CMakeFiles/ws_client.dir/src/server_manager.cpp.i
+
+CMakeFiles/ws_client.dir/src/server_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ws_client.dir/src/server_manager.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/src/server_manager.cpp -o CMakeFiles/ws_client.dir/src/server_manager.cpp.s
 
 # Object files for target ws_client
 ws_client_OBJECTS = \
-"CMakeFiles/ws_client.dir/ws_client.cpp.o"
+"CMakeFiles/ws_client.dir/src/main.cpp.o" \
+"CMakeFiles/ws_client.dir/src/ws_client.cpp.o" \
+"CMakeFiles/ws_client.dir/src/server_manager.cpp.o"
 
 # External object files for target ws_client
 ws_client_EXTERNAL_OBJECTS =
 
-ws_client: CMakeFiles/ws_client.dir/ws_client.cpp.o
+ws_client: CMakeFiles/ws_client.dir/src/main.cpp.o
+ws_client: CMakeFiles/ws_client.dir/src/ws_client.cpp.o
+ws_client: CMakeFiles/ws_client.dir/src/server_manager.cpp.o
 ws_client: CMakeFiles/ws_client.dir/build.make
 ws_client: /usr/local/lib/libboost_system.dylib
 ws_client: /usr/local/lib/libjsoncpp.26.dylib
 ws_client: CMakeFiles/ws_client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ws_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/coreyclark/Sites/Git/Classes/Projects/CS5393/Inclass/AIDev/websocket_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ws_client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ws_client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
